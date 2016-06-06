@@ -15,6 +15,8 @@
 		1E9AE1D01D054C6000B8E226 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E9AE1CE1D054C6000B8E226 /* LaunchScreen.storyboard */; };
 		1E9AE1DB1D054C6100B8E226 /* ReeachAnimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9AE1DA1D054C6100B8E226 /* ReeachAnimeTests.m */; };
 		1E9AE1E61D054C6100B8E226 /* ReeachAnimeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9AE1E51D054C6100B8E226 /* ReeachAnimeUITests.m */; };
+		1E9AE1F71D05652200B8E226 /* MyReeachViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9AE1F61D05652200B8E226 /* MyReeachViewController.m */; };
+		1E9AE1FA1D05675F00B8E226 /* MyReeachTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E9AE1F91D05675F00B8E226 /* MyReeachTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		1E9AE1E11D054C6100B8E226 /* ReeachAnimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReeachAnimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E9AE1E51D054C6100B8E226 /* ReeachAnimeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReeachAnimeUITests.m; sourceTree = "<group>"; };
 		1E9AE1E71D054C6100B8E226 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E9AE1F51D05652200B8E226 /* MyReeachViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReeachViewController.h; sourceTree = "<group>"; };
+		1E9AE1F61D05652200B8E226 /* MyReeachViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReeachViewController.m; sourceTree = "<group>"; };
+		1E9AE1F81D05675F00B8E226 /* MyReeachTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyReeachTableViewCell.h; sourceTree = "<group>"; };
+		1E9AE1F91D05675F00B8E226 /* MyReeachTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyReeachTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,7 @@
 		1E9AE1BF1D054C6000B8E226 /* ReeachAnime */ = {
 			isa = PBXGroup;
 			children = (
+				1E9AE1F31D0563A800B8E226 /* ViewController */,
 				1E9AE1C31D054C6000B8E226 /* AppDelegate.h */,
 				1E9AE1C41D054C6000B8E226 /* AppDelegate.m */,
 				1E9AE1C61D054C6000B8E226 /* ViewController.h */,
@@ -138,6 +145,25 @@
 				1E9AE1E71D054C6100B8E226 /* Info.plist */,
 			);
 			path = ReeachAnimeUITests;
+			sourceTree = "<group>";
+		};
+		1E9AE1F31D0563A800B8E226 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1E9AE1F41D0563B600B8E226 /* MyReeach */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1E9AE1F41D0563B600B8E226 /* MyReeach */ = {
+			isa = PBXGroup;
+			children = (
+				1E9AE1F51D05652200B8E226 /* MyReeachViewController.h */,
+				1E9AE1F61D05652200B8E226 /* MyReeachViewController.m */,
+				1E9AE1F81D05675F00B8E226 /* MyReeachTableViewCell.h */,
+				1E9AE1F91D05675F00B8E226 /* MyReeachTableViewCell.m */,
+			);
+			path = MyReeach;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E9AE1F71D05652200B8E226 /* MyReeachViewController.m in Sources */,
 				1E9AE1C81D054C6000B8E226 /* ViewController.m in Sources */,
 				1E9AE1C51D054C6000B8E226 /* AppDelegate.m in Sources */,
+				1E9AE1FA1D05675F00B8E226 /* MyReeachTableViewCell.m in Sources */,
 				1E9AE1C21D054C6000B8E226 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
